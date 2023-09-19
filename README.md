@@ -34,17 +34,6 @@ until finished
 
 Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
 
-## Ejecutando las pruebas
-
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
-
-### Dividir en pruebas de principio a fin
-
-Explique qué prueban estas pruebas y por qué.
-
-```
-Give an example
-```
 
 ### Y pruebas de estilo de codificación.
 
