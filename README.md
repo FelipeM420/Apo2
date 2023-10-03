@@ -11,45 +11,80 @@ Se rea una función llamada calcularFactorial que tome un número entero positiv
 su factorial.
 
 ### Requisitos previos
+1. Uso de JOption Pane para ingreso y muestra de datos
+2. Cumplimiento de los requisitos funcionales
 
-Cumplimiento de los requisitos funcionales
-Uso de JOption Pane para ingreso y muestra de datos
 
 ```
-Give examples
+examples
+  1. int j = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero", "NUMERO FACTORIAL", 3));
+
+
+2.  public static int fac (int j) {
+			int res = 1;
+			for (int i = 1; i<=j; i++) {
+				res = res*i; 
 ```
 
 ### Instalación
+Se toma un número entero positivo como parámetro y devuelva
+su factorial y en el programa principal, utiliza un bucle para permitir que el usuario realice múltiples cálculos de factoriales.
+Solicita al usuario que ingrese un número entero positivo y garantice que la entrada sea válida.
+Utiliza la función calcularFactorial para calcular el factorial del número ingresado.
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
-
-Di cuál será el paso.
 
 ```
-Give the example
+int num = 1;
+while (num != 2) {
+            if (num == 1) {
+                int j = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese un numero", "NUMERO FACTORIAL", 3));
+
+                if (j > 0) {
+                    int res1 = fac(j);
+                    JOptionPane.showMessageDialog(null, "El factorial de " + j + " es " + res1);
+                }
+else {
+ JOptionPane.showMessageDialog(null, "El número está fuera de alcance. Ingresa un número positivo.");
+}
 ```
 
-Y repetir
+Para saber si un numero esta fuera del rango entre 1 y 2 se aplica un mensaje que diga que realmente se debe escoger entre esos dos numeros.
 
 ```
-until finished
+else {
+JOptionPane.showMessageDialog(null, "Debes escoger solo entre 1 y 2.");
+ }
 ```
 
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
 
+### Prueba para digitar si quiere continuar o quiere salir del programa.
 
-### Y pruebas de estilo de codificación.
-
-Explique qué prueban estas pruebas y por qué.
+para este ejemplo se necesita aplicar un mensaje donde se pueda digitar entre el numero uno (que es para continuar con otro numero factorial) y numero 2 (sirve para salir del programa)
 
 ```
-Give an example
+  num = Integer.parseInt(JOptionPane.showInputDialog(null, "¿Qué número deseas digitar?\n1. Continuar\n2. Salir"));
+        }
+
+JOptionPane.showMessageDialog(null, "¡Hasta luego!");
+    }
 ```
 
-## Despliegue (Deployment)
+## Metodo funcional
 
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
+como se conocio anteriormente, para este codigo se necesita de un metodo llamado funciones que sirve para desplegar todo el codigo y ejecutar el numero factorial.
 
+```
+}
+		public static int fac (int j) {
+			int res = 1;
+			for (int i = 1; i<=j; i++) {
+				res = res*i; 
+			}
+			return res;
+		
+   }
+}
+```
 
 ## Construido con
 
