@@ -1,16 +1,19 @@
 ![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
 
-# Titulo del Proyecto
+# Cálculo del Factorial
 
-Un párrafo de la descripción del proyecto va aquí.
+Se necesita crear un programa en Java que permita al usuario calcular el factorial de un número entero positivo.
+Utiliza condicionales, ciclos y funciones para lograrlo.
 
 ## Empezando
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+Se rea una función llamada calcularFactorial que tome un número entero positivo como parámetro y devuelva
+su factorial.
 
 ### Requisitos previos
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
+Cumplimiento de los requisitos funcionales
+Uso de JOption Pane para ingreso y muestra de datos
 
 ```
 Give examples
