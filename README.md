@@ -88,25 +88,24 @@ como se conocio anteriormente, para este codigo se necesita de un metodo llamado
 
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+java : lenguaje de codigo utilizado para programacion.
+eclipse - enlanzado con java.
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+control de verion del programa eclipse es de 2023-09 (4.29)​ (info) ( 12 de septiembre de 2023)
 
 ## Autores
 
-* **Gustavo Sánchez** 
+* **Sebastian Moreno** 
 
 
 ## Licencia
 
-Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener más detalles.
+La Licencia Pública de Eclipse está diseñado para ser una licencia de software favorable a los negocios y cuenta con disposiciones más débiles que las licencias copyleft contemporáneas, como la Licencia Pública General de GNU (GPL). El receptor de programas licenciados EPL pueden utilizar, modificar, copiar y distribuir el trabajo y las versiones modificadas, en algunos casos están obligados a liberar sus propios cambios.
 
 ## Expresiones de gratitud (Acknowledgments)
 
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+* un buen proyecto para aprender las funciones con el tema a la programacion
+* Inspirado de un taller educativo de apo 2.
+
